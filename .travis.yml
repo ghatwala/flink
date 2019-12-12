@@ -16,6 +16,7 @@
 # send to fully-virtualized infrastructure: https://docs.travis-ci.com/user/reference/xenial/
 sudo: required
 dist: xenial
+arch: ppc64le
 
 cache:
   # default timeout is too low
